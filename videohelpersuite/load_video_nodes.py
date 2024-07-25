@@ -247,7 +247,7 @@ class LoadVideoUpload:
                 },
                 }
 
-    CATEGORY = "Video Helper Suite 🎥🅥🅗🅢"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢"
 
     RETURN_TYPES = ("IMAGE", "INT", "AUDIO", "VHS_VIDEOINFO", "LATENT")
     RETURN_NAMES = ("IMAGE", "frame_count", "audio", "video_info", "LATENT")
@@ -293,7 +293,7 @@ class LoadVideoPath:
             },
         }
 
-    CATEGORY = "Video Helper Suite 🎥🅥🅗🅢"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢"
 
     RETURN_TYPES = ("IMAGE", "INT", "AUDIO", "VHS_VIDEOINFO", "LATENT")
     RETURN_NAMES = ("IMAGE", "frame_count", "audio", "video_info", "LATENT")

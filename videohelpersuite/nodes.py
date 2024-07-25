@@ -234,7 +234,7 @@ class VideoCombine:
     RETURN_TYPES = ("VHS_FILENAMES",)
     RETURN_NAMES = ("Filenames",)
     OUTPUT_NODE = True
-    CATEGORY = "Video Helper Suite 🎥🅥🅗🅢"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢"
     FUNCTION = "combine_video"
 
     def combine_video(
@@ -574,7 +574,7 @@ class LoadAudio:
 
     RETURN_TYPES = ("AUDIO",)
     RETURN_NAMES = ("audio",)
-    CATEGORY = "Video Helper Suite 🎥🅥🅗🅢/audio"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/audio"
     FUNCTION = "load_audio"
     def load_audio(self, audio_file, seek_seconds):
         audio_file = strip_path(audio_file)
@@ -609,7 +609,7 @@ class LoadAudioUpload:
                      },
                 }
 
-    CATEGORY = "Video Helper Suite 🎥🅥🅗🅢/audio"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/audio"
 
     RETURN_TYPES = ("AUDIO", )
     RETURN_NAMES = ("audio",)
@@ -637,7 +637,7 @@ class AudioToVHSAudio:
     @classmethod
     def INPUT_TYPES(s):
         return {"required": {"audio": ("AUDIO",)}}
-    CATEGORY = "Video Helper Suite 🎥🅥🅗🅢/audio"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/audio"
 
     RETURN_TYPES = ("VHS_AUDIO", )
     RETURN_NAMES = ("vhs_audio",)
@@ -667,7 +667,7 @@ class VHSAudioToAudio:
     @classmethod
     def INPUT_TYPES(s):
         return {"required": {"vhs_audio": ("VHS_AUDIO",)}}
-    CATEGORY = "Video Helper Suite 🎥🅥🅗🅢/audio"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/audio"
 
     RETURN_TYPES = ("AUDIO", )
     RETURN_NAMES = ("audio",)
@@ -708,7 +708,7 @@ class PruneOutputs:
 
     RETURN_TYPES = ()
     OUTPUT_NODE = True
-    CATEGORY = "Video Helper Suite 🎥🅥🅗🅢"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢"
     FUNCTION = "prune_outputs"
 
     def prune_outputs(self, filenames, options):
@@ -775,7 +775,7 @@ class BatchManager:
 
     RETURN_TYPES = ("VHS_BatchManager",)
     RETURN_NAMES = ("meta_batch",)
-    CATEGORY = "Video Helper Suite 🎥🅥🅗🅢"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢"
     FUNCTION = "update_batch"
 
     def update_batch(self, frames_per_batch, prompt=None, unique_id=None):
@@ -803,7 +803,7 @@ class VideoInfo:
                     }
                 }
 
-    CATEGORY = "Video Helper Suite 🎥🅥🅗🅢"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢"
 
     RETURN_TYPES = ("FLOAT","INT", "FLOAT", "INT", "INT", "FLOAT","INT", "FLOAT", "INT", "INT")
     RETURN_NAMES = (
@@ -842,7 +842,7 @@ class VideoInfoSource:
                     }
                 }
 
-    CATEGORY = "Video Helper Suite 🎥🅥🅗🅢"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢"
 
     RETURN_TYPES = ("FLOAT","INT", "FLOAT", "INT", "INT",)
     RETURN_NAMES = (
@@ -874,7 +874,7 @@ class VideoInfoLoaded:
                     }
                 }
 
-    CATEGORY = "Video Helper Suite 🎥🅥🅗🅢"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢"
 
     RETURN_TYPES = ("FLOAT","INT", "FLOAT", "INT", "INT",)
     RETURN_NAMES = (
