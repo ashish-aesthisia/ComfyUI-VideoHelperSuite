@@ -42,7 +42,7 @@ class SplitLatents:
                 },
             }
     
-    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/latent"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/TD latent"
 
     RETURN_TYPES = ("LATENT", "INT", "LATENT", "INT")
     RETURN_NAMES = ("LATENT_A", "A_count", "LATENT_B", "B_count")
@@ -69,7 +69,7 @@ class SplitImages:
                 },
             }
     
-    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/image"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/TD image"
 
     RETURN_TYPES = ("IMAGE", "INT", "IMAGE", "INT")
     RETURN_NAMES = ("IMAGE_A", "A_count", "IMAGE_B", "B_count")
@@ -91,7 +91,7 @@ class SplitMasks:
                 },
             }
     
-    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/mask"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/TD mask"
 
     RETURN_TYPES = ("MASK", "INT", "MASK", "INT")
     RETURN_NAMES = ("MASK_A", "A_count", "MASK_B", "B_count")
@@ -116,7 +116,7 @@ class MergeLatents:
             }
         }
     
-    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/latent"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/TD latent"
 
     RETURN_TYPES = ("LATENT", "INT",)
     RETURN_NAMES = ("LATENT", "count",)
@@ -167,7 +167,7 @@ class MergeImages:
             }
         }
     
-    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/image"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/TD image"
 
     RETURN_TYPES = ("IMAGE", "INT",)
     RETURN_NAMES = ("IMAGE", "count",)
@@ -218,7 +218,7 @@ class MergeMasks:
             }
         }
     
-    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/mask"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/TD mask"
 
     RETURN_TYPES = ("MASK", "INT",)
     RETURN_NAMES = ("MASK", "count",)
@@ -268,7 +268,7 @@ class SelectEveryNthLatent:
                 },
             }
     
-    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/latent"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/TD latent"
 
     RETURN_TYPES = ("LATENT", "INT",)
     RETURN_NAMES = ("LATENT", "count",)
@@ -295,7 +295,7 @@ class SelectEveryNthImage:
                 },
             }
     
-    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/image"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/TD image"
 
     RETURN_TYPES = ("IMAGE", "INT",)
     RETURN_NAMES = ("IMAGE", "count",)

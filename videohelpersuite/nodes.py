@@ -667,7 +667,7 @@ class VHSAudioToAudio:
     @classmethod
     def INPUT_TYPES(s):
         return {"required": {"vhs_audio": ("VHS_AUDIO",)}}
-    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/audio"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/TD audio"
 
     RETURN_TYPES = ("AUDIO", )
     RETURN_NAMES = ("audio",)
@@ -937,10 +937,10 @@ NODE_CLASS_MAPPINGS = {
     "VHS_SelectMasks": SelectMasks,
 }
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "VHS_VideoCombine": "Video Combine 🎥🅥🅗🅢",
-    "VHS_LoadVideo": "Load Video (Upload) 🎥🅥🅗🅢",
-    "VHS_LoadVideoPath": "Load Video (Path) 🎥🅥🅗🅢",
-    "VHS_LoadImages": "Load Images (Upload) 🎥🅥🅗🅢",
+    "VHS_VideoCombine": "TD Video Combine 🎥🅥🅗🅢",
+    "VHS_LoadVideo": "TD Load Video (Upload) 🎥🅥🅗🅢",
+    "VHS_LoadVideoPath": "TD Load Video (Path) 🎥🅥🅗🅢",
+    "VHS_LoadImages": "TD Load Images (Upload) 🎥🅥🅗🅢",
     "VHS_LoadImagesPath": "Load Images (Path) 🎥🅥🅗🅢",
     "VHS_LoadAudio": "Load Audio (Path)🎥🅥🅗🅢",
     "VHS_LoadAudioUpload": "Load Audio (Upload)🎥🅥🅗🅢",

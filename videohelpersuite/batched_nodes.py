@@ -14,7 +14,7 @@ class VAEDecodeBatched:
                 }
             }
     
-    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/batched nodes"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/TD batched nodes"
 
     RETURN_TYPES = ("IMAGE",)
     FUNCTION = "decode"
@@ -38,7 +38,7 @@ class VAEEncodeBatched:
                 }
             }
     
-    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/batched nodes"
+    CATEGORY = "TD Video Helper Suite 🎥🅥🅗🅢/TD batched nodes"
 
     RETURN_TYPES = ("LATENT",)
     FUNCTION = "encode"
