@@ -899,7 +899,7 @@ class VideoInfoLoaded:
 
 
 NODE_CLASS_MAPPINGS = {
-    "TD_VHS_VideoCombine": VideoCombine,
+    "VHS_VideoCombine": VideoCombine,
     "VHS_LoadVideo": LoadVideoUpload,
     "VHS_LoadVideoPath": LoadVideoPath,
     "VHS_LoadImages": LoadImagesFromDirectoryUpload,
@@ -937,7 +937,7 @@ NODE_CLASS_MAPPINGS = {
     "VHS_SelectMasks": SelectMasks,
 }
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "VHS_VideoCombine": "Video Combine 🎥🅥🅗🅢",
+    "VHS_VideoCombine": "TD Video Combine 🎥🅥🅗🅢",
     "VHS_LoadVideo": "TD Load Video (Upload) 🎥🅥🅗🅢",
     "VHS_LoadVideoPath": "TD Load Video (Path) 🎥🅥🅗🅢",
     "VHS_LoadImages": "TD Load Images (Upload) 🎥🅥🅗🅢",
