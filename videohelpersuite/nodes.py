@@ -937,7 +937,7 @@ NODE_CLASS_MAPPINGS = {
     "VHS_SelectMasks": SelectMasks,
 }
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "TD_VHS_VideoCombine": "Video Combine 🎥🅥🅗🅢",
+    "VHS_VideoCombine": "Video Combine 🎥🅥🅗🅢",
     "VHS_LoadVideo": "TD Load Video (Upload) 🎥🅥🅗🅢",
     "VHS_LoadVideoPath": "TD Load Video (Path) 🎥🅥🅗🅢",
     "VHS_LoadImages": "TD Load Images (Upload) 🎥🅥🅗🅢",
